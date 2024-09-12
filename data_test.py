@@ -3,6 +3,13 @@ from torchvision import datasets, transforms, utils
 import matplotlib.pyplot as plt
 import numpy as np
 
+"""
+I created this file to help with debugging. I was stuck with training not going over 20% and in many cases stuck at 10%.
+I wanted to investigate my transformations as I tested many, many other things. Multiple models, multiple layers/hidden units,
+different dropout rates and a LR from 0.01 to 0.03. I finally decided to start from scratch and when I accidentally set the 
+LR to 0.003 I resolved all the problems
+"""
+
 def test_data_transforms(data_dir):
     """
     Test the data transformations and provide detailed information about the dataset.
