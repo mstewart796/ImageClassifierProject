@@ -38,7 +38,7 @@ def get_input_args():
     parser.add_argument('--arch', type=str, default='vgg16',
                         help='Choose architecture (default: vgg16)')
     parser.add_argument('--learning_rate', type=float, default=0.003, # PLEASE test with this value, I spent DAYS stuck debugging when the problem was a LR of 0.01/0.03
-                        help='Learning rate (default: 0.03)')
+                        help='Learning rate (default: 0.003)')
     parser.add_argument('--hidden_units', type=int, default=1024, # I did my tsting mainly with 512 as per the hyperparameters in the instructions
                         help='Number of hidden units (default: 1024)')
     parser.add_argument('--epochs', type=int, default=10, # I tested this with 2 epochs because of personal time restrictions
