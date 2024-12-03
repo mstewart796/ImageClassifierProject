@@ -30,21 +30,6 @@ Ensure the following libraries are installed:
 - Pillow
 - Matplotlib
 
-### Installation
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-repo/image-classifier-project.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd image-classifier-project
-   ```
-3. Install the required libraries:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
 ## Project Workflow
 
 1. **Data Loading and Preprocessing**
